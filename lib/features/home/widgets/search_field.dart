@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/chat_gpt/chatGpt.dart';
+import 'package:indus_app/constants/app_constants.dart';
+import 'package:indus_app/features/chat_gpt/chatGpt.dart';
 
 class SearchField extends StatelessWidget {
   const SearchField({Key? key}) : super(key: key);

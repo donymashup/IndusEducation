@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/live/screen/recordings_courses.dart';
-import 'package:talent_app/features/live/screen/upcoming_courses.dart';
+import 'package:indus_app/constants/app_constants.dart';
+import 'package:indus_app/features/live/screen/recordings_courses.dart';
+import 'package:indus_app/features/live/screen/upcoming_courses.dart';
 import '../screen/ongoing_courses.dart';
 
 class CustomTabBarView extends StatefulWidget {

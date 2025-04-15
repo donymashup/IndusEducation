@@ -1,7 +1,7 @@
-const webUrl = 'https://talentonline.in/';
+const webUrl = 'https://indusonline.in/';
 //const baseUrl = 'https://alphaacademyonline.in/api/';
 //const baseUrl = 'https://demo.etcweb.in/api/';
-const baseUrl = 'https://talentonline.in/api/';
+const baseUrl = 'https://indusonline.in/api/';
 //const baseUrl = 'https://alphaacademyonline.in/api/';
 
 const loginUrl = 'userlogin';
@@ -47,5 +47,5 @@ const String printReport = "${baseUrl}printReport";
 const String attendMainTest = "${baseUrl}testseries";
 const String attendPracticeTest = "${baseUrl}practiceexam";
 
-const String email_id = 'talentgroup.in@gmail.com';
+const String email_id = 'indusgroup.in@gmail.com';
 const String phone_no = '+91 9544600224';
