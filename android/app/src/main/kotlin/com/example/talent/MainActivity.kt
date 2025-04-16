@@ -1,4 +1,4 @@
-package com.example.talent
+package com.example.indus
 
 import io.flutter.embedding.android.FlutterActivity
 

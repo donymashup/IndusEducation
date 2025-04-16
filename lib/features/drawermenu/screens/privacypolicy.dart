@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/constants/config.dart';
+import 'package:indus_app/constants/app_constants.dart';
+import 'package:indus_app/constants/config.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class PrivacypolicyPage extends StatelessWidget {

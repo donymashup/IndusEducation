@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:talent_app/constants/config.dart';
+import 'package:indus_app/constants/config.dart';
 import 'package:http/http.dart' as http;
 
 class AppKeyServices {
