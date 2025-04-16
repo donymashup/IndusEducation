@@ -83,4 +83,4 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/lottie/
-    - assets/animations/
+    # - assets/animations/
