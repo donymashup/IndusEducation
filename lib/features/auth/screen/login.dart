@@ -109,10 +109,13 @@ class _LoginState extends State<Login> {
                     // ),
                     //const SizedBox(height: 8),
                     // Add Lottie animation here
+                    const SizedBox(height: 20),
                      Image.asset(
                       'assets/images/loginpic.png',
-                      height: 300, // Adjust the height as needed
+                      height: 250,
+                       // Adjust the height as needed
                     ),
+                    const SizedBox(height: 20),
                     const Text(
                       'Please enter your phone number and\npassword to continue',
                       textAlign: TextAlign.center,
