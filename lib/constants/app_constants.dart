@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppConstant {
   static const appName = "indus International Academy";
+
    static const backgroundColor2 = Color.fromARGB(255, 250, 246, 247);
   // //static const primaryColor = Color(0xFFD70000);
   // static const primaryColor = Color(0xFFEF7B00); // Orange
@@ -23,7 +24,6 @@ class AppConstant {
   static const secondaryColor = Color(0xFF6E6E71); // Gray
   static final secondaryColorLight = Color(0xFF6E6E71);
   //static final secondaryColorLight = secondaryColor.withOpacity(0.7); // Light Gray
-
 
   static const lightGradient = Color.fromARGB(255, 214, 63, 69);
   static const darkGradient = Color.fromARGB(255, 138, 3, 3);
