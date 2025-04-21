@@ -18,7 +18,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       imagePath: 'assets/images/onboardingpic1.jpg',
       title: 'Unlock Your Learning Potential',
       description:
-          'Discover a powerful platform designed to support learners with smart tools and engaging content.',
+          'Discover a powerful platform designed to support learners with engaging content.',
     ),
     OnboardingPageModel(
       imagePath: 'assets/images/onboardingpic2.png',
