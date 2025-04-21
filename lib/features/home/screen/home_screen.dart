@@ -106,7 +106,7 @@ Widget _categoryHeader() {
                       _selectedCategoryIndex = index;
                     });
                   },
-                  selectedColor: AppConstant.secondaryColorLight,
+                  selectedColor: AppConstant.primaryColor,
                   backgroundColor: Colors.grey[300],
                   checkmarkColor: Colors.white, // Set tick color to white
                 ),
@@ -118,8 +118,6 @@ Widget _categoryHeader() {
     },
   );
 }
-
-// ...existing code...
 Widget _courseList() {
   return FutureBuilder<AvailableCoursesModel?>(
     future: _futureCourses,
@@ -133,11 +131,11 @@ Widget _courseList() {
       } else {
         final courses = snapshot.data!.data![_selectedCategoryIndex].courses;
         return Wrap(
-          spacing: 8, // Horizontal spacing between cards
-          runSpacing: 8, // Vertical spacing between rows
+          spacing: 8,
+          runSpacing: 8,
           children: courses?.map((course) {
             return Container(
-              width: MediaQuery.of(context).size.width / 2 - 15, // Half of the screen width with spacing
+              width: MediaQuery.of(context).size.width / 2 - 15,
               child: GestureDetector(
                 onTap: () => _navigateToCourseDetail(context, course),
                 child: Card(
@@ -149,7 +147,7 @@ Widget _courseList() {
                   elevation: 5,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min, // Ensures proper height
+                    mainAxisSize: MainAxisSize.min,
                     children: [
                       ClipRRect(
                         borderRadius: const BorderRadius.vertical(top: Radius.circular(10)),
@@ -161,10 +159,13 @@ Widget _courseList() {
                           placeholder: (context, url) => Shimmer.fromColors(
                             baseColor: Colors.grey[300]!,
                             highlightColor: Colors.grey[100]!,
-                            child: Container(height: 120, width: double.infinity, color: Colors.white),
+                            child: Container(
+                              height: 120,
+                              width: double.infinity,
+                              color: Colors.white,
+                            ),
                           ),
-                          errorWidget: (context, url, error) =>
-                              const Icon(Icons.broken_image),
+                          errorWidget: (context, url, error) => const Icon(Icons.broken_image),
                         ),
                       ),
                       Padding(
@@ -186,8 +187,10 @@ Widget _courseList() {
                               children: [
                                 const Icon(Icons.star, color: Colors.amber, size: 16),
                                 const SizedBox(width: 5),
-                                Text(course!.avgStars.toString(),
-                                    style: const TextStyle(fontSize: 14)),
+                                Text(
+                                  course!.avgStars.toString(),
+                                  style: const TextStyle(fontSize: 14),
+                                ),
                               ],
                             ),
                           ],
@@ -204,6 +207,7 @@ Widget _courseList() {
     },
   );
 }
+
 
 void _navigateToCourseDetail(BuildContext context, dynamic course) {
   if (course.courseDetails != null) {

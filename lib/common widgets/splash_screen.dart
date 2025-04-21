@@ -30,8 +30,8 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Image.asset(
           'assets/images/induslogo.png',
-          width: 300, // Set the desired width
-          height: 300, // Set the desired height
+          width: 250, // Set the desired width
+          height: 250, // Set the desired height
         ),
       ),
     );
