@@ -92,8 +92,8 @@ class DrawerScreen extends StatelessWidget {
               child: Center(
                 child: Image.asset(
                   'assets/images/induslogo.png',
-                  height: 200,
-                  width: 200,
+                  height: 170,
+                  width: 170,
                 ),
               ),
             ),

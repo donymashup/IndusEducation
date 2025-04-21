@@ -102,7 +102,7 @@ class _CarouselImageState extends State<CarouselImage> {
                 width: _currentIndex == entry.key ? 12 : 8,
                 height: 8,
                 decoration: BoxDecoration(
-                  color: _currentIndex == entry.key ? AppConstant.secondaryColor : Colors.grey,
+                  color: _currentIndex == entry.key ? AppConstant.primaryColor : Colors.grey,
                   borderRadius: BorderRadius.circular(4),
                 ),
               ),
