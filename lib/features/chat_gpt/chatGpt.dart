@@ -52,7 +52,7 @@ class _ChatGptScreenState extends State<ChatGptScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'indus Chatbot',
+          'Indus Chatbot',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         leading: IconButton(
