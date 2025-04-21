@@ -38,9 +38,9 @@ class SearchField extends StatelessWidget {
                   padding:
                       const EdgeInsets.all(8.0), // Add padding for alignment
                   child: Image.asset(
-                    'assets/icons/aiblub.png',
-                    height: 24,
-                    width: 24,
+                    'assets/icons/induschatbox.png',
+                    height: 26,
+                    width: 26,
                   ),
                 ),
               ),

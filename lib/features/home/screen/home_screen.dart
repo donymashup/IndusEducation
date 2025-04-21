@@ -72,8 +72,11 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+
+
+
  // ...existing code...
-Widget _categoryHeader() {
+ Widget _categoryHeader() {
   return FutureBuilder<AvailableCoursesModel?>(
     future: _futureCourses,
     builder: (context, snapshot) {
@@ -108,7 +111,7 @@ Widget _categoryHeader() {
                   },
                   selectedColor: AppConstant.primaryColor,
                   backgroundColor: Colors.grey[300],
-                  checkmarkColor: Colors.white, // Set tick color to white
+                  showCheckmark: false, // ✅ Hides the checkmark
                 ),
               );
             },
@@ -118,6 +121,9 @@ Widget _categoryHeader() {
     },
   );
 }
+
+
+
 Widget _courseList() {
   return FutureBuilder<AvailableCoursesModel?>(
     future: _futureCourses,
