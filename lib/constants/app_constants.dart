@@ -4,13 +4,13 @@ class AppConstant {
   static const appName = "indus International Academy";
   static const backgroundColor2 = Color.fromARGB(255, 250, 246, 247);
   //static const primaryColor = Color(0xFFD70000);
-  static const primaryColor = Color(0xFFEF7B00); // Orange
+  static const primaryColor = Color(0xFF1CA49C);
   static final primaryColorLight =
-      Color(0xFFEF7B00).withOpacity(0.8); // Light Orange
+      Color(0xFFEF7B00).withOpacity(0.8); 
 
-  static const secondaryColor = Color(0xFF2F2484); //dart blue
+  static const secondaryColor = Color(0xFF6C6C74); 
   static final secondaryColorLight =
-      Color(0xFF2F2484).withOpacity(0.7); // Light dart blue
+      Color(0xFF2F2484).withOpacity(0.7); 
 
   static const lightGradient = Color.fromARGB(255, 214, 63, 69);
   static const darkGradient = Color.fromARGB(255, 138, 3, 3);

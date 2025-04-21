@@ -54,7 +54,6 @@ class UserController extends GetxController {
   Future<void> updateProfilePicture(String newUrl) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setString('image', newUrl);
-
     profilePictureUrl.value = newUrl; // Update state
     update(); // Force UI update (alternative: profilePictureUrl.refresh())
   }

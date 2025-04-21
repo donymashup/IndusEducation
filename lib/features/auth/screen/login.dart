@@ -109,8 +109,8 @@ class _LoginState extends State<Login> {
                     // ),
                     //const SizedBox(height: 8),
                     // Add Lottie animation here
-                    Lottie.asset(
-                      'assets/lottie/loginlottie.json', // Replace with your Lottie animation asset path
+                     Image.asset(
+                      'assets/images/loginpic.png',
                       height: 300, // Adjust the height as needed
                     ),
                     const Text(

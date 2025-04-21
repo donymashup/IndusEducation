@@ -15,28 +15,28 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<OnboardingPageModel> pages = [
     OnboardingPageModel(
-      imagePath: 'assets/images/O1.png',
-      title: 'Enter the World of E-Learning',
+      imagePath: 'assets/images/onboardingpic1.jpg',
+      title: 'Unlock Your Learning Potential',
       description:
-          'Begin Your Educational Journey With Access To A Diverse Range Of Courses.',
+          'Discover a powerful platform designed to support learners with smart tools and engaging content.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O2.png',
-      title: 'Personalize Your Learning Path',
+      imagePath: 'assets/images/onboardingpic2.png',
+      title: 'Learn Anytime, Anywhere',
       description:
-          'Customize Your Learning With Progress Tracking, And Interactive Activities.',
+          'study at your pace, at your place, whenever you are ready',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O3.png',
-      title: 'Engage with Expert Instructors',
+      imagePath: 'assets/images/onboardingpic3.png',
+      title: 'Smarter Learning, Better Results',
       description:
-          'Connect With Knowledgeable Tutors For Personalized Guidance.',
+          'Follow your progress and stay engaged with real-time insights and goals',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O4.png',
-      title: 'Embark on Your Learning Adventure',
+      imagePath: 'assets/images/onboardingpic4.png',
+      title: 'Learn from the Best',
       description:
-          'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
+          'Our expert instructors bring real-world experience and deep knowledge to guide you every step of the way',
     ),
   ];
 
@@ -217,7 +217,7 @@ class ModernOnboardingPage extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Color(0xFFF8F8F8),
+                    color: Colors.white,
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
